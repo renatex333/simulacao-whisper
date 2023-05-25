@@ -1,0 +1,22 @@
+{
+  "name": "simulacao-whisper",
+  "version": "1.0.0",
+  "description": "sudo apt update && sudo apt upgrade -y",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renatex333/simulacao-whisper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renatex333/simulacao-whisper/issues"
+  },
+  "homepage": "https://github.com/renatex333/simulacao-whisper#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
