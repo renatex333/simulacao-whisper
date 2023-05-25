@@ -12,7 +12,11 @@
 
     sudo apt install uvicorn -y
 
-    pip install -r requirements.txt
+    sudo apt install python3-testresources -y
+
+    export PATH="$HOME/bin:$PATH"
+
+    pip install -r requirements.txt --no-cache-dir
 
     uvicorn app.main:app --reload
 
